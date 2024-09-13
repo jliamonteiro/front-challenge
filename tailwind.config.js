@@ -45,5 +45,19 @@ export default {
       }
     }
   },
-  plugins: [],
+  plugins: [
+    function({addBase}){
+    addBase({
+      '*': {
+        'margin': '0',
+        'padding': '0',
+        'box-sizing': 'border-box',
+        'font-family': '"Montserrat", sans-serif'
+      },
+      'body': {
+        'background-color': '#FBF2E7'
+      },
+    });
+  }
+],
 }

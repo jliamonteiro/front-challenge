@@ -3,7 +3,6 @@ import Header from "../../components/Header/Header";
 import Integrantes from "../../components/Integrantes/Integrantes";
 import Sobre from "../../components/Sobre/Sobre";
 
-import Sobre from "../../components/Sobre/Sobre";
 
 
 export default function Equipe() {

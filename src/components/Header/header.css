@@ -1,0 +1,13 @@
+.tooltiptext {
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    margin-top: 3px;
+    margin-left: 2em;
+    display: none;
+}
+
+.group:hover .tooltiptext {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+}

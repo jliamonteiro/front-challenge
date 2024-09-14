@@ -1,8 +1,12 @@
-export default function App() {
+import { BrowserRouter } from 'react-router-dom'
+import MainRoutes from './routes'
 
+function App() {
   return (
-    <>
-      <h1>Teste</h1>
-    </>
+    <BrowserRouter>
+      <MainRoutes/>
+    </BrowserRouter>
   )
 }
+
+export default App

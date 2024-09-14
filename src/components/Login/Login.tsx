@@ -1,4 +1,3 @@
-// Login.tsx
 import React from 'react';
 import Logo from "./assets/logo.png";
 import Google from "./assets/google.png";

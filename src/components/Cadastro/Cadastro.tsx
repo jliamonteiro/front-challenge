@@ -21,7 +21,7 @@ export default function Cadastro({
     onLoginClick: () => void;
 }) {
     return (
-        <section className="my-8 w-1/2 lg:flex items-center justify-center z-10 lg:w-full lg:flex-grow lg:mr-2 lg:my-0">
+        <section className="my-8 w-1/2 lg:flex items-center justify-center z-10 lg:w-full lg:flex-grow lg:my-0">
             <form action="#" className='h-full bg-branco flex items-center flex-col px-4 text-center drop-shadow-lg rounded-lg flex-grow' onSubmit={onSubmit}>
                 <div className="w-full flex justify-end mt-8">
                     <img src={Logo} alt="Logo da Descomplica Auto" className='h-10 mb-6 mt-8' />

@@ -1,4 +1,7 @@
-
+import Linkedin from "./assets/linkedin.svg";
+import Facebook from "./assets/facebook.svg";
+import Instagram from "./assets/instagram.svg";
+import Logo from "./assets/logo.png";
 import "./style.css";
 
 export default function Footer() {
@@ -6,9 +9,9 @@ export default function Footer() {
     <footer className="w-full bg-footer">
       <div className="flex flex-wrap text-cinza">
         <div className="w-full py-2 px-4 lg:w-1/2">
-          <h2 className="text-base md:text-lg font-semibold uppercase pl-4">Contato</h2>
+          <h2 className="text-base md:text-lg font-semibold uppercase pl-4">Contate-nos</h2>
           <div className="box relative mx-auto py-2 px-4 mt-4">
-            <h3>Para n</h3>
+            <h3 className="font-medium">Entre em contato conosco preenchendo o formulário abaixo e retornaremos o mais breve possível!</h3>
             <form action="#">
               <div className="mt-4 flex flex-col">
                 <label className="font-semibold text-cinzalabel pb-1.5 text-lg lg:text-xl">Nome</label>
@@ -29,12 +32,14 @@ export default function Footer() {
           </div>
         </div>
         <div className="w-full py-2 px-4 lg:w-1/2">
-          <h2 className="text-base md:text-lg font-semibold uppercase pl-4">Endereço</h2>
+          <h2 className="text-base md:text-lg font-semibold uppercase pl-4">Redes sociais</h2>
           <div className="box relative mx-auto py-2 px-4 mt-4">
-            <div className="mt-4">
-              <p className="font-semibold text-informacoes text-sm lg:text-xl mt-4">R EMILIA MARENGO, 451 - VILA REGENTE FEIJO - SAO PAULO</p>
-              <p className="font-semibold text-informacoes text-sm lg:text-xl mt-4">+333 76786</p>
-              <p className="font-semibold text-informacoes text-sm lg:text-xl mt-4 break-words">prevencao.cartoes@portoseguro.com.br</p>
+            <img src={Logo} className="h-12 my-6" />
+            <p className="font-bold text-lg">Acompanhe a Porto nas redes sociais</p>
+            <div className="mt-4 flex gap-32 justify-center">
+              <a href="https://www.linkedin.com/company/porto" className="flex lg:hover:bg-slate-400" target="_blank"><img src={Linkedin} className="h-12 m-2"/></a>
+              <a href="https://www.facebook.com/porto" className="flex lg:hover:bg-slate-400" target="_blank"><img src={Facebook} className="h-12 m-2"/></a>
+              <a href="https://www.instagram.com/porto/" className="flex lg:hover:bg-slate-400" target="_blank"><img src={Instagram} className="h-12 m-2"/></a>     
             </div>
           </div>
         </div>

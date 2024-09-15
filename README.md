@@ -12,6 +12,6 @@
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" align="center" height="50" width="60"/></a>
               
 ### Integrantes 👥 
-- 👤 Julia Monteiro
-- 👤 Sofia Andrade Petruk
-- 👤 Victor Henrique Estrella Carracci
+- 👤 Julia Monteiro RM:557023
+- 👤 Sofia Andrade Petruk RM:556585
+- 👤 Victor Henrique Estrella Carracci RM:556206

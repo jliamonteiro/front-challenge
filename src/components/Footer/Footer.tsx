@@ -8,6 +8,7 @@ export default function Footer() {
         <div className="w-full py-2 px-4 lg:w-1/2">
           <h2 className="text-base md:text-lg font-semibold uppercase pl-4">Contato</h2>
           <div className="box relative mx-auto py-2 px-4 mt-4">
+            <h3>Para n</h3>
             <form action="#">
               <div className="mt-4 flex flex-col">
                 <label className="font-semibold text-cinzalabel pb-1.5 text-lg lg:text-xl">Nome</label>

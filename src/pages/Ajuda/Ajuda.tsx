@@ -1,12 +1,12 @@
-import AddCarro from "../../components/AdicionarCarro/AdicionarCarro";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import Perguntas from "../../components/Perguntas/Perguntas";
 
-export default function AdicionarCarro(){
+export default function Ajuda(){
     return (
         <>
             <Header/>
-            <AddCarro/>
+            <Perguntas/>
             <Footer/>
         </>
     )

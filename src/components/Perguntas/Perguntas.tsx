@@ -1,8 +1,7 @@
-import Faixa from "../Faixa/Faixa";
 
 export default function Perguntas() {
     return (
-        <section className="flex flex-col items-center w-full mt-20">
+        <section className="flex flex-col items-center w-full my-20">
             <h2 className="text-4xl text-azulclaro font-medium m-10 md:text-5xl lg:text-6xl">Perguntas Frequentes</h2>
             <div className="flex gap-12 m-6 mb-10 flex-wrap flex-row md:justify-around md:m-0 md:my-10 xl:gap-[6em]">
                 <p className="text-sm shadow-pergunta p-4 w-11/12 bg-[#C6D8F0] text-black md:text-base md:w-2/5 lg:text-xl lg:w-80 lg:h-80"><span className="font-bold">O aplicativo oferece suporte técnico ou atendimento ao cliente?</span><br /><br />
@@ -17,7 +16,6 @@ export default function Perguntas() {
                 <p className="text-sm shadow-pergunta p-4 w-11/12 bg-[#B0E0E6] text-black md:text-base md:w-2/5 lg:text-xl lg:w-80 lg:h-80"><span className="font-bold">O aplicativo pode ajudar em situações de emergência?</span><br /><br />
                     O nosso aplicativo oferece uma opção de autoajuda para soluções rápidas e também permite localizar mecânicos confiáveis na região do cliente</p>
             </div>
-            <Faixa/>
         </section>
     )
 }

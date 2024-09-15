@@ -101,13 +101,13 @@ export default function AddCarro() {
   };
 
   return (
-    <section className="w-11/12 max-w-4xl mx-auto p-4 bg-white rounded-lg shadow-xl my-32">
-      <div className='w-full flex justify-center'>
-        <h2 className="text-xl lg:text-3xl font-bold mb-4">
+    <section className="w-11/12 max-w-4xl mx-auto bg-white rounded-2xl shadow-xl my-32">
+      <div className='w-full flex justify-center bg-azulclaro p-4 rounded-t-2xl'>
+        <h2 className="text-xl lg:text-3xl font-bold my-2 text-branco">
           {editingIndex !== null ? 'Editar Carro' : 'Adicionar Carro'}
         </h2>
       </div>
-      <form onSubmit={handleSubmit} className="space-y-4 mb-8">
+      <form onSubmit={handleSubmit} className="space-y-4 mb-8 p-4">
         <div className="flex flex-col md:flex-row md:space-x-4">
           <div className="flex-1">
             <label htmlFor="marca" className="block text-sm font-medium text-gray-700 mb-1">Marca</label>
@@ -128,13 +128,13 @@ export default function AddCarro() {
         </div>
         {error && <div className="text-red-500 text-sm mb-4">{error}</div>}
         {error2 && <div className="text-red-500 text-sm mb-4">{error2}</div>}
-        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">
+        <button type="submit" className="bg-azulescuro text-white py-2 px-4 rounded-md hover:bg-blue-600">
           {editingIndex !== null ? 'Salvar Alterações' : 'Adicionar Carro'}
         </button>
       </form>
 
       {/* Lista de carros */}
-      <div>
+      <div className='p-4'>
         <h3 className="text-xl lg:text-3xl font-bold mb-4">Lista de Carros</h3>
         <ul className="space-y-4">
           {cars.map((car, index) => (

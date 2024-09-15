@@ -21,12 +21,12 @@ export default function Cadastro({
     onLoginClick: () => void;
 }) {
     return (
-        <section className="my-8 w-1/2 lg:flex items-center justify-center z-10 lg:w-full lg:flex-grow lg:my-0">
-            <form action="#" className='h-full bg-branco flex items-center flex-col px-4 text-center drop-shadow-lg rounded-lg flex-grow' onSubmit={onSubmit}>
+        <section className="my-8 w-11/12 lg:flex items-center justify-center z-10 lg:w-full lg:flex-grow lg:my-0">
+            <form action="#" className='h-5/6 bg-branco flex items-center flex-col px-4 text-center drop-shadow-lg rounded-lg flex-grow' onSubmit={onSubmit}>
                 <div className="w-full flex justify-end mt-8">
                     <img src={Logo} alt="Logo da Descomplica Auto" className='h-10 mb-6 mt-8' />
                 </div>
-                <h1 className='text-5xl mt-2 lg:my-10 font-bold text-azulclaro m-0 md:text-7xl lg:text-8xl'>Cadastro</h1>
+                <h1 className='text-4xl mt-2 lg:my-10 font-bold text-azulclaro m-0 md:text-6xl lg:text-7xl'>Cadastro</h1>
                 <div className="flex flex-col gap-2 mt-5">
                     <div className="bg-cinza flex items-center gap-2.5 pl-2.5 rounded-xl">
                         <img src={User} />

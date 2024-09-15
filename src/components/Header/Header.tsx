@@ -12,19 +12,19 @@ export default function Header() {
                 <img src={Logo} className="w-20 md:w-32 lg:w-44" />
                 <Link to="/Ajuda" className="group">
                     <img src={Ajuda} alt="" className="w-9/12 lg:hidden" />
-                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro">Ajuda</p>
+                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro font-semibold">Ajuda</p>
                 </Link>
                 <Link to="/Funcionalidade" className="group">
                     <img src={Funcionalidade} alt="" className="w-9/12 lg:hidden" />
-                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro">Funcionalidade</p>
+                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro font-semibold">Funcionalidade</p>
                 </Link>
                 <Link to="/Sobre" className="group relative">
                     <img src={Sobre} alt="" className="w-9/12 lg:hidden" />
-                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro">Sobre</p>
+                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro font-semibold">Sobre</p>
                 </Link>
                 <Link to="/" className="group relative">
                     <img src={Logout} alt="" className="w-9/12 lg:hidden" />
-                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro">Sair</p>
+                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro font-semibold">Sair</p>
                 </Link>
             </div>
         </header>

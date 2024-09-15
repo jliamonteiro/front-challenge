@@ -16,15 +16,15 @@ export default function Header() {
                 </Link>
                 <Link to="/Funcionalidade" className="group">
                     <img src={Funcionalidade} alt="" className="w-9/12 lg:hidden" />
-                    <p className="hidden text-white lg:block text-2xl">Funcionalidade</p>
+                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro">Funcionalidade</p>
                 </Link>
                 <Link to="/Sobre" className="group relative">
                     <img src={Sobre} alt="" className="w-9/12 lg:hidden" />
-                    <p className="hidden text-white lg:block text-2xl">Sobre</p>
+                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro">Sobre</p>
                 </Link>
                 <Link to="/" className="group relative">
                     <img src={Logout} alt="" className="w-9/12 lg:hidden" />
-                    <p className="hidden text-white lg:block text-2xl">Sair</p>
+                    <p className="hidden text-white lg:block text-2xl lg:hover:text-azulescuro">Sair</p>
                 </Link>
             </div>
         </header>

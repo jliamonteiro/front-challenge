@@ -19,11 +19,11 @@ export default function Login({
 }) {
     return (
         <section className="my-8 w-11/12 lg:flex items-center justify-center z-10 lg:w-full lg:flex-grow lg:ml-2 lg:my-0 desktop-only">
-            <form action="#" className='h-full bg-branco flex items-center flex-col px-4 text-center drop-shadow-lg rounded-lg flex-grow' onSubmit={onSubmit}>
+            <form action="#" className='h-5/6 bg-branco flex items-center flex-col px-4 text-center drop-shadow-lg rounded-lg flex-grow' onSubmit={onSubmit}>
                 <div className="w-full flex justify-end">
                     <img src={Logo} alt="Logo da Descomplica Auto" className='h-10 mb-6 mt-8'/>
                 </div>
-                <h1 className="text-6xl mt-6 lg:mt-20 font-bold text-azulclaro m-0 md:text-7xl lg:text-8xl">Login</h1>
+                <h1 className="text-5xl mt-6 lg:mt-20 font-bold text-azulclaro m-0 md:text-6xl lg:text-7xl">Login</h1>
                 <ul className="flex list-none my-10 gap-7 md:gap-24 lg:my-9">
                     <li><a href="#"><img src={Google} className="cursor-pointer w-12 md:w-14 lg:w-16" alt="Ícone do Google" /></a></li>
                     <li><a href="#"><img src={Facebook} className="cursor-pointer w-12 md:w-14 lg:w-16" alt="Ícone do Facebook" /></a></li>

@@ -17,3 +17,6 @@ No site, os usuários encontram páginas de orientação sobre o funcionamento d
 - 👤 Julia Monteiro RM:557023
 - 👤 Sofia Andrade Petruk RM:556585
 - 👤 Victor Henrique Estrella Carracci RM:556206
+
+## Link do vídeo
+https://youtu.be/KRsSyF7H9Pc

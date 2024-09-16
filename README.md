@@ -20,3 +20,6 @@ No site, os usuários encontram páginas de orientação sobre o funcionamento d
 
 ## Link do vídeo
 https://youtu.be/KRsSyF7H9Pc
+
+## Link do repositório
+https://github.com/jliamonteiro/front-challenge
